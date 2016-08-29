@@ -1,0 +1,26 @@
+{
+  "name": "glsl-conditionals",
+  "version": "1.0.0",
+  "description": "Functions designed to avoid conditionals ported to glslify",
+  "main": "when_eq.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
+  "homepage": "https://github.com/dmnsgn/glsl-conditionals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmnsgn/glsl-conditionals"
+  },
+  "keywords": [
+    "glsl",
+    "conditionals",
+    "glslify",
+    "webgl",
+    "shader"
+  ],
+  "issues": {
+    "url": "https://github.com/dmnsgn/glsl-conditionals/issues"
+  },
+  "license": "MIT"
+}
