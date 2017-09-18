@@ -35,4 +35,4 @@ y += 5 * when_eq(x, 0)
 
 ## License
 
-MIT
+MIT. See [license file](https://github.com/dmnsgn/glsl-conditionals/blob/master/LICENSE.md).
