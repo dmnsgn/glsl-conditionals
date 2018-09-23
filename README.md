@@ -30,7 +30,7 @@ attribute float x;
 
 // ...
 
-y += 5 * when_eq(x, 0)
+y += 5.0 * when_eq(x, .0)
 ```
 
 ## License
