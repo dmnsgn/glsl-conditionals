@@ -1,4 +1,4 @@
-float when_not(float a, float b) {
+export default /* glsl */ `float when_not(float a, float b) {
   return 1.0 - a;
 }
 
@@ -14,4 +14,4 @@ vec4 when_not(vec4 a, vec4 b) {
   return 1.0 - a;
 }
 
-#pragma glslify: export(when_not)
+`;

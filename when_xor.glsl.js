@@ -1,4 +1,4 @@
-float when_xor(float a, float b) {
+export default /* glsl */ `float when_xor(float a, float b) {
   return (a + b) % 2.0;
 }
 
@@ -14,4 +14,4 @@ vec4 when_xor(vec4 a, vec4 b) {
   return (a + b) % 2.0;
 }
 
-#pragma glslify: export(when_xor)
+`;

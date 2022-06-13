@@ -1,17 +1,7 @@
 {
   "name": "glsl-conditionals",
   "version": "1.0.0",
-  "description": "Functions designed to avoid conditionals ported to glslify",
-  "main": "when_eq.glsl",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
-  "homepage": "https://github.com/dmnsgn/glsl-conditionals",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dmnsgn/glsl-conditionals"
-  },
+  "description": "Daniel Holden's functions designed to avoid conditionals in GLSL, available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
     "conditionals",
@@ -19,8 +9,37 @@
     "webgl",
     "shader"
   ],
-  "issues": {
-    "url": "https://github.com/dmnsgn/glsl-conditionals/issues"
+  "homepage": "https://github.com/dmnsgn/glsl-conditionals",
+  "bugs": "https://github.com/dmnsgn/glsl-conditionals/issues",
+  "repository": "dmnsgn/glsl-conditionals",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "glslify test/index.glsl"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "glslify": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "snowdev": {
+    "dependencies": []
+  }
 }

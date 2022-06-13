@@ -1,4 +1,8 @@
-#pragma glslify: when_gt = require('./when_gt')
+export const dependencies = [
+  new URL("./when_gt.glsl.js", import.meta.url),
+];
+
+export default /* glsl */ `
 
 float when_le(float x, float y) {
   return 1.0 - when_gt(x, y);
@@ -16,4 +20,4 @@ vec4 when_le(vec4 x, vec4 y) {
   return 1.0 - when_gt(x, y);
 }
 
-#pragma glslify: export(when_le)
+`;
