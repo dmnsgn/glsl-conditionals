@@ -1,6 +1,6 @@
 {
   "name": "glsl-conditionals",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Daniel Holden's functions designed to avoid conditionals in GLSL, available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",

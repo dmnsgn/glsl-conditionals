@@ -1,6 +1,4 @@
-export const dependencies = [
-  new URL("./when_lt.glsl.js", import.meta.url),
-];
+export const dependencies = [new URL("./when_lt.glsl.js", import.meta.url)];
 
 export default /* glsl */ `
 

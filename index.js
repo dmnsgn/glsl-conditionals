@@ -2,11 +2,17 @@ export { default as WHEN_AND } from "./when_and.glsl.js";
 
 export { default as WHEN_EQ } from "./when_eq.glsl.js";
 
-export { default as WHEN_GE, dependencies as WHEN_GE_DEPENDENCIES } from "./when_ge.glsl.js";
+export {
+  default as WHEN_GE,
+  dependencies as WHEN_GE_DEPENDENCIES,
+} from "./when_ge.glsl.js";
 
 export { default as WHEN_GT } from "./when_gt.glsl.js";
 
-export { default as WHEN_LE, dependencies as WHEN_LE_DEPENDENCIES } from "./when_le.glsl.js";
+export {
+  default as WHEN_LE,
+  dependencies as WHEN_LE_DEPENDENCIES,
+} from "./when_le.glsl.js";
 
 export { default as WHEN_LT } from "./when_lt.glsl.js";
 
