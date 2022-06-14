@@ -1,7 +1,7 @@
 # glsl-conditionals
 
 [![npm version](https://img.shields.io/npm/v/glsl-conditionals)](https://www.npmjs.com/package/glsl-conditionals)
-[![stability-stable](https://img.shields.io/badge/stability-frozen-brightgreen.svg)](https://www.npmjs.com/package/glsl-conditionals)
+[![stability-frozen](https://img.shields.io/badge/stability-frozen-brightgreen.svg)](https://www.npmjs.com/package/glsl-conditionals)
 [![npm minzipped size](https://img.shields.io/bundlephobia/minzip/glsl-conditionals)](https://bundlephobia.com/package/glsl-conditionals)
 [![dependencies](https://img.shields.io/librariesio/release/npm/glsl-conditionals)](https://github.com/dmnsgn/glsl-conditionals/blob/main/package.json)
 [![types](https://img.shields.io/npm/types/glsl-conditionals)](https://github.com/microsoft/TypeScript)
