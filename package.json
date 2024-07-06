@@ -1,6 +1,6 @@
 {
   "name": "glsl-conditionals",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Daniel Holden's functions designed to avoid conditionals in GLSL, available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
@@ -11,7 +11,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/glsl-conditionals",
   "bugs": "https://github.com/dmnsgn/glsl-conditionals/issues",
-  "repository": "dmnsgn/glsl-conditionals",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/glsl-conditionals.git"
+  },
   "funding": [
     {
       "type": "individual",
