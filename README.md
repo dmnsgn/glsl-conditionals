@@ -12,7 +12,7 @@
 
 [Daniel Holden's functions designed to avoid conditionals](https://theorangeduck.com/page/avoiding-shader-conditionals) in GLSL, available both as ES modules strings and as GLSL files for use with glslify.
 
-Disclaimer: you might not need this as it is highly hardware dependant and branching might not equate more operations in modern GPUs. Also it can make your shader harder to visually parse.
+Disclaimer: you might not need this as it is highly hardware dependant and [branching might not equate more operations in modern GPUs](https://iquilezles.org/articles/gpuconditionals/). Also it can make your shader harder to visually parse.
 
 [![paypal](https://img.shields.io/badge/donate-paypal-informational?logo=paypal)](https://paypal.me/dmnsgn)
 [![coinbase](https://img.shields.io/badge/donate-coinbase-informational?logo=coinbase)](https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3)
